@@ -1,6 +1,8 @@
 # 🏥 Healthcare Lab Diagnosis TAT & Analytics Engineering
 > **An End-to-End Analytics Project optimizing Laboratory Turnaround Time (TAT) using Excel Data Modeling, Advanced SQL Querying, and Executive Power BI Dashboarding.**
 > 
+➡️ **[Click Here to View Part 2: Power BI Dashboard & Key Business Insights]https://github.com/vaishnavidataAnalytics/Healthcare_Lab_TAT_Analytic/blob/main/README_PART%202
+> 
 
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![SQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
@@ -53,7 +55,7 @@ Q4: Outlier Anomaly Detection & Data Quality Check
 ​Objective: Instantly isolate system errors or manual entry bugs where the logged processing time is impossible (\le 0 hours) or critically high (>100 hours).
 <img width="387" height="95" alt="image" src="https://github.com/user-attachments/assets/78bec989-ec72-4ad4-8e45-0936657ddeb0" />
 
-
+**[Click Here to View Part 2: Power BI Dashboard & Key Business Insights]https://github.com/vaishnavidataAnalytics/Healthcare_Lab_TAT_Analytic/blob/main/README_PART%202
 
 
 
