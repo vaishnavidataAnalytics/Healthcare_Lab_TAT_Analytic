@@ -1,0 +1,56 @@
+# 🏥 Healthcare Lab Turnaround Time (TAT) Project — Part 2: Insights & Observations
+
+After building the Excel dataset, running the SQL database audits, and creating the final Power BI dashboard, I analyzed the charts and numbers to understand how the lab is performing. 
+
+Below are the key observations and real-world recommendations I found based on the data.
+
+---
+
+## 📊 1. Key Insights Discovered (What the Data Shows)
+
+### 🕒 A. Department Bottlenecks
+* **Observation:** The **Biochemistry and Microbiology** departments take the longest time to process samples. They are frequently running very close to or crossing their standard target hours.
+* **Impact:** Since these departments handle complex tests, delays here slow down the entire patient treatment loop.
+
+### 🚨 B. Emergency (Stat) Test Delays
+* **Observation:** By using SQL queries and Power BI filters, I noticed that a significant number of **'Stat' (Emergency)** tests are falling into the 'Delayed' status. 
+* **Impact:** Emergency tests should always be prioritized. Delays in this category mean the lab needs a better sorting system for high-priority samples.
+
+### 🧪 C. High Volume on Specific Sample Types
+* **Observation:** The Treemap visual highlights that **EDTA Blood and Serum samples** make up more than 50% of the total lab volume.
+* **Impact:** This heavy volume creates physical crowdedness at the testing counters and centrifuge machines, causing operational slowdowns.
+
+### 🧼 D. Data Quality and Entry Errors
+* **Observation:** My SQL data quality checks successfully caught duplicate Patient IDs and impossible testing times (like 0 hours or over 100 hours).
+* **Impact:** These were clearly human typing errors at the entry counter. If we do not clean this data, it falsely lowers the lab's official performance rating.
+
+---
+
+## 🚀 2. Practical Recommendations for Lab Management
+
+Based on my findings, here are a few simple ways the lab can improve its efficiency:
+
+* **Smart Staff Sharing:** During peak hours when Biochemistry is overloaded, the lab can temporarily shift some staff from faster departments (like Hematology) to assist them.
+* **Visual Alert System:** The lab software should show a clear color alert for any 'Stat' sample that has been sitting untouched for more than 75% of its target time.
+* **Front-Desk Data Validation:** We should fix entry validation rules directly in the billing software so that the system blocks duplicate IDs or wrong time entries *before* they enter the database.
+
+---
+
+
+
+
+
+
+---
+
+## 👋 Let's Connect!
+I am actively looking for opportunities as a **Data Analyst** where I can clean raw data, write useful queries, and find real answers that help a business grow. 
+
+* **LinkedIn Profile:**https://www.linkedin.com/in/vaishnavi-sabale-912a04421/ 
+Email ID :vaishnavidatacourse@gmail.com
+
+
+
+---
+
+
